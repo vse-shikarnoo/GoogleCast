@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b598de39-04ff-4024-bd83-cb810e0caf2a" name="Changes" comment="-">
+      <change afterPath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-kotlin/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-kotlin/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-kotlin/src/main/kotlin/com/google/sample/cast/refplayer/CastOptionsProvider.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-kotlin/src/main/kotlin/com/google/sample/cast/refplayer/CastSessionTransferCallback.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-kotlin/src/main/kotlin/com/google/sample/cast/refplayer/VideoBrowserActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-kotlin/src/main/kotlin/com/google/sample/cast/refplayer/browser/VideoBrowserFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-kotlin/src/main/kotlin/com/google/sample/cast/refplayer/browser/VideoItemLoader.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-kotlin/src/main/kotlin/com/google/sample/cast/refplayer/browser/VideoListAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-kotlin/src/main/kotlin/com/google/sample/cast/refplayer/browser/VideoProvider.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-kotlin/src/main/kotlin/com/google/sample/cast/refplayer/expandedcontrols/ExpandedControlsActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-kotlin/src/main/kotlin/com/google/sample/cast/refplayer/mediaplayer/LocalMediaPlayer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-kotlin/src/main/kotlin/com/google/sample/cast/refplayer/mediaplayer/LocalPlayerActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-kotlin/src/main/kotlin/com/google/sample/cast/refplayer/mediaplayer/PlaybackAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-kotlin/src/main/kotlin/com/google/sample/cast/refplayer/mediaplayer/RemotePlaybackHelper.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-kotlin/src/main/kotlin/com/google/sample/cast/refplayer/mediaplayer/VideoMediaPlayer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-kotlin/src/main/kotlin/com/google/sample/cast/refplayer/mediaplayer/VideoPlaybackAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-kotlin/src/main/kotlin/com/google/sample/cast/refplayer/mediaplayer/VideoPlaybackAdapterWithoutAudioFocus.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-kotlin/src/main/kotlin/com/google/sample/cast/refplayer/notification/LocalNotificationProxy.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-kotlin/src/main/kotlin/com/google/sample/cast/refplayer/notification/MediaSessionProxy.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-kotlin/src/main/kotlin/com/google/sample/cast/refplayer/queue/QueueDataProvider.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-kotlin/src/main/kotlin/com/google/sample/cast/refplayer/queue/ui/QueueItemTouchHelperCallback.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-kotlin/src/main/kotlin/com/google/sample/cast/refplayer/queue/ui/QueueListAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-kotlin/src/main/kotlin/com/google/sample/cast/refplayer/queue/ui/QueueListViewActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-kotlin/src/main/kotlin/com/google/sample/cast/refplayer/queue/ui/QueueListViewFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-kotlin/src/main/kotlin/com/google/sample/cast/refplayer/settings/CastPreference.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-kotlin/src/main/kotlin/com/google/sample/cast/refplayer/utils/AsyncBitmap.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-kotlin/src/main/kotlin/com/google/sample/cast/refplayer/utils/CustomVolleyRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-kotlin/src/main/kotlin/com/google/sample/cast/refplayer/utils/Utils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi-v11/ic_stat_action_notification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi-v11/ic_stat_hardware_headphones.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ab_bottom_solid_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ab_bottom_solid_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ab_solid_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ab_solid_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ab_stacked_solid_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ab_stacked_solid_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ab_texture_tile_castvideo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ab_texture_tile_democast.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ab_transparent_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ab_transparent_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ab_transparent_democastoverlay.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/actionbar_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/actionbar_logo_castvideos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/apptheme_scrubber_control_disabled_holo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/apptheme_scrubber_control_focused_holo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/apptheme_scrubber_control_normal_holo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/apptheme_scrubber_control_pressed_holo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/apptheme_scrubber_primary_holo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/apptheme_scrubber_secondary_holo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/apptheme_scrubber_track_holo_light.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/arrow_down_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/btn_cab_done_default_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/btn_cab_done_default_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/btn_cab_done_focused_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/btn_cab_done_focused_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/btn_cab_done_pressed_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/btn_cab_done_pressed_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/cab_background_bottom_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/cab_background_bottom_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/cab_background_top_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/cab_background_top_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_action_alerts_and_states_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_add_circle_outline_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_add_white_18dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_add_white_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_add_white_36dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_add_white_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_av_next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_av_pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_av_pause_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_av_pause_light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_av_pause_over_video.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_av_pause_over_video_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_av_play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_av_play_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_av_play_light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_av_play_over_video.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_av_play_over_video_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_av_previous.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_av_stop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_closed_caption_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_closed_caption_googblue_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_closed_caption_googblue_36dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_closed_caption_googblue_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_closed_caption_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_closed_caption_grey600_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_closed_caption_grey600_36dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_closed_caption_grey600_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_closed_caption_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_closed_caption_white_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_closed_caption_white_36dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_closed_caption_white_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_device_access_volume_muted.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_device_access_volume_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_drag_updown_grey_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_expand_list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_more_vert_grey600_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_music_albumart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_pause_circle_white_80dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_pause_grey600_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_play_arrow_grey600_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_play_arrow_white_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_play_circle_outline_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_play_circle_white_80dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_playlist_white_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_remove_circle_white_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_skip_next_grey600_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_skip_next_white_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_skip_previous_grey600_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_skip_previous_white_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_stat_action_notification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_stat_hardware_headphones.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/ic_stop_white_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/list_focused_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/list_focused_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/list_pressed_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/menu_dropdown_panel_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/menu_dropdown_panel_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/minibg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/mr_ic_media_route_disabled_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/mr_ic_media_route_off_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/mr_ic_media_route_on_0_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/mr_ic_media_route_on_1_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/mr_ic_media_route_on_2_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/mr_ic_media_route_on_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/progress_bg_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/progress_bg_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/progress_primary_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/progress_primary_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/progress_secondary_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/progress_secondary_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/shadow6.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/spinner_ab_default_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/spinner_ab_default_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/spinner_ab_disabled_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/spinner_ab_disabled_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/spinner_ab_focused_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/spinner_ab_focused_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/spinner_ab_pressed_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/spinner_ab_pressed_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/tab_selected_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/tab_selected_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/tab_selected_focused_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/tab_selected_focused_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/tab_selected_pressed_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/tab_selected_pressed_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/tab_unselected_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/tab_unselected_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/tab_unselected_focused_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/tab_unselected_focused_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/tab_unselected_pressed_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-hdpi/tab_unselected_pressed_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi-v11/ic_stat_action_notification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi-v11/ic_stat_action_notifications.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi-v11/ic_stat_hardware_headphones.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/ab_bottom_solid_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/ab_bottom_solid_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/ab_solid_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/ab_solid_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/ab_stacked_solid_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/ab_stacked_solid_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/ab_texture_tile_castvideo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/ab_texture_tile_democast.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/ab_transparent_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/ab_transparent_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/ab_transparent_democastoverlay.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/actionbar_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/actionbar_logo_castvideos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/apptheme_scrubber_control_disabled_holo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/apptheme_scrubber_control_focused_holo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/apptheme_scrubber_control_normal_holo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/apptheme_scrubber_control_pressed_holo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/apptheme_scrubber_primary_holo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/apptheme_scrubber_secondary_holo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/apptheme_scrubber_track_holo_light.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/arrow_down_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/btn_cab_done_default_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/btn_cab_done_default_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/btn_cab_done_focused_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/btn_cab_done_focused_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/btn_cab_done_pressed_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/btn_cab_done_pressed_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/cab_background_bottom_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/cab_background_bottom_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/cab_background_top_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/cab_background_top_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/ic_action_alerts_and_states_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/ic_av_next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/ic_av_pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/ic_av_pause_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/ic_av_pause_light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/ic_av_pause_over_video.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/ic_av_pause_over_video_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/ic_av_play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/ic_av_play_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/ic_av_play_light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/ic_av_play_over_video.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/ic_av_play_over_video_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/ic_av_previous.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/ic_av_stop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/ic_device_access_volume_muted.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/ic_device_access_volume_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/ic_music_albumart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/ic_stat_action_notification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/ic_stat_hardware_headphones.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/list_focused_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/list_focused_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/list_pressed_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/menu_dropdown_panel_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/menu_dropdown_panel_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/minibg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/mr_ic_media_route_disabled_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/mr_ic_media_route_off_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/mr_ic_media_route_on_0_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/mr_ic_media_route_on_1_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/mr_ic_media_route_on_2_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/mr_ic_media_route_on_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/progress_bg_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/progress_bg_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/progress_primary_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/progress_primary_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/progress_secondary_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/progress_secondary_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/shadow6.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/spinner_ab_default_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/spinner_ab_default_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/spinner_ab_disabled_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/spinner_ab_disabled_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/spinner_ab_focused_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/spinner_ab_focused_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/spinner_ab_pressed_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/spinner_ab_pressed_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/tab_selected_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/tab_selected_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/tab_selected_focused_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/tab_selected_focused_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/tab_selected_pressed_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/tab_selected_pressed_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/tab_unselected_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/tab_unselected_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/tab_unselected_focused_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/tab_unselected_focused_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/tab_unselected_pressed_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-mdpi/tab_unselected_pressed_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-nodpi/pattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-nodpi/shadow7.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi-v11/ic_stat_action_notification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi-v11/ic_stat_hardware_headphones.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi-v11/mr_ic_media_route_disabled_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi-v11/mr_ic_media_route_off_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi-v11/mr_ic_media_route_on_0_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi-v11/mr_ic_media_route_on_1_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi-v11/mr_ic_media_route_on_2_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi-v11/mr_ic_media_route_on_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ab_bottom_solid_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ab_bottom_solid_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ab_solid_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ab_solid_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ab_stacked_solid_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ab_stacked_solid_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ab_texture_tile_castvideo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ab_texture_tile_democast.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ab_transparent_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ab_transparent_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ab_transparent_democastoverlay.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/actionbar_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/actionbar_logo_castvideos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/apptheme_scrubber_control_disabled_holo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/apptheme_scrubber_control_focused_holo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/apptheme_scrubber_control_normal_holo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/apptheme_scrubber_control_pressed_holo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/apptheme_scrubber_primary_holo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/apptheme_scrubber_secondary_holo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/apptheme_scrubber_track_holo_light.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/arrow_down_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/btn_cab_done_default_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/btn_cab_done_default_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/btn_cab_done_focused_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/btn_cab_done_focused_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/btn_cab_done_pressed_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/btn_cab_done_pressed_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/cab_background_bottom_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/cab_background_bottom_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/cab_background_top_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/cab_background_top_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/default_video.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_action_alerts_and_states_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_add_circle_outline_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_add_white_18dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_add_white_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_add_white_36dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_add_white_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_av_next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_av_pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_av_pause_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_av_pause_light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_av_pause_over_video.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_av_pause_over_video_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_av_play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_av_play_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_av_play_light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_av_play_over_video.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_av_play_over_video_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_av_previous.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_av_stop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_closed_caption_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_closed_caption_googblue_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_closed_caption_googblue_36dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_closed_caption_googblue_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_closed_caption_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_closed_caption_grey600_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_closed_caption_grey600_36dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_closed_caption_grey600_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_closed_caption_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_closed_caption_white_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_closed_caption_white_36dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_closed_caption_white_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_device_access_volume_muted.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_device_access_volume_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_drag_updown_grey_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_drag_updown_white_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_expand_list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_more_vert_grey600_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_music_albumart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_pause_circle_white_80dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_pause_grey600_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_play_arrow_grey600_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_play_arrow_white_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_play_circle_outline_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_play_circle_white_80dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_playlist_white_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_remove_circle_white_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_skip_next_grey600_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_skip_next_white_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_skip_previous_grey600_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_skip_previous_white_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_stat_action_notification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_stat_hardware_headphones.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/ic_stop_white_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/list_focused_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/list_focused_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/list_pressed_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/menu_dropdown_panel_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/menu_dropdown_panel_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/minibg.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/mr_ic_media_route_disabled_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/mr_ic_media_route_off_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/mr_ic_media_route_on_0_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/mr_ic_media_route_on_1_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/mr_ic_media_route_on_2_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/mr_ic_media_route_on_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/progress_bg_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/progress_bg_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/progress_primary_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/progress_primary_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/progress_secondary_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/progress_secondary_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/shadow6.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/shadow7.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/spinner_ab_default_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/spinner_ab_default_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/spinner_ab_disabled_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/spinner_ab_disabled_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/spinner_ab_focused_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/spinner_ab_focused_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/spinner_ab_pressed_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/spinner_ab_pressed_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/tab_selected_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/tab_selected_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/tab_selected_focused_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/tab_selected_focused_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/tab_selected_pressed_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/tab_selected_pressed_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/tab_unselected_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/tab_unselected_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/tab_unselected_focused_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/tab_unselected_focused_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/tab_unselected_pressed_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xhdpi/tab_unselected_pressed_democast.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi-v11/ic_stat_action_notification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi-v11/ic_stat_hardware_headphones.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi-v11/mr_ic_media_route_disabled_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi-v11/mr_ic_media_route_off_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi-v11/mr_ic_media_route_on_0_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi-v11/mr_ic_media_route_on_1_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi-v11/mr_ic_media_route_on_2_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi-v11/mr_ic_media_route_on_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ab_bottom_solid_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ab_solid_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ab_stacked_solid_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ab_texture_tile_castvideo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ab_transparent_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/actionbar_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/actionbar_logo_castvideos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/apptheme_scrubber_control_disabled_holo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/apptheme_scrubber_control_focused_holo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/apptheme_scrubber_control_normal_holo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/apptheme_scrubber_control_pressed_holo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/apptheme_scrubber_primary_holo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/apptheme_scrubber_secondary_holo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/apptheme_scrubber_track_holo_light.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/arrow_down_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/btn_cab_done_default_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/btn_cab_done_focused_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/btn_cab_done_pressed_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/cab_background_bottom_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/cab_background_top_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_action_alerts_and_states_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_add_circle_outline_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_add_white_18dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_add_white_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_add_white_36dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_add_white_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_av_next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_av_pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_av_pause_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_av_pause_light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_av_pause_over_video.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_av_pause_over_video_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_av_play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_av_play_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_av_play_light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_av_play_over_video.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_av_play_over_video_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_av_previous.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_av_stop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_closed_caption_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_closed_caption_googblue_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_closed_caption_googblue_36dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_closed_caption_googblue_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_closed_caption_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_closed_caption_grey600_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_closed_caption_grey600_36dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_closed_caption_grey600_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_closed_caption_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_closed_caption_white_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_closed_caption_white_36dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_closed_caption_white_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_device_access_volume_muted.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_device_access_volume_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_drag_updown_grey_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_drag_updown_white_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_more_vert_grey600_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_music_albumart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_pause_circle_white_80dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_pause_grey600_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_play_arrow_grey600_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_play_arrow_white_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_play_circle_outline_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_play_circle_white_80dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_playlist_white_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_remove_circle_white_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_skip_next_grey600_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_skip_next_white_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_skip_previous_grey600_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_skip_previous_white_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_stat_action_notification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_stat_hardware_headphones.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/ic_stop_white_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/list_focused_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/list_pressed_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/menu_dropdown_panel_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/minibg.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/mr_ic_media_route_disabled_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/mr_ic_media_route_off_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/mr_ic_media_route_on_0_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/mr_ic_media_route_on_1_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/mr_ic_media_route_on_2_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/mr_ic_media_route_on_holo_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/progress_bg_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/progress_primary_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/progress_secondary_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/shadow6.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/spinner_ab_default_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/spinner_ab_disabled_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/spinner_ab_focused_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/spinner_ab_pressed_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/tab_selected_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/tab_selected_focused_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/tab_selected_pressed_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/tab_unselected_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/tab_unselected_focused_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxhdpi/tab_unselected_pressed_castvideo.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxxhdpi/arrow_down_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxxhdpi/ic_add_circle_outline_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxxhdpi/ic_add_white_18dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxxhdpi/ic_add_white_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxxhdpi/ic_add_white_36dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxxhdpi/ic_add_white_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxxhdpi/ic_closed_caption_googblue_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxxhdpi/ic_closed_caption_googblue_36dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxxhdpi/ic_closed_caption_googblue_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxxhdpi/ic_closed_caption_grey600_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxxhdpi/ic_closed_caption_grey600_36dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxxhdpi/ic_closed_caption_grey600_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxxhdpi/ic_closed_caption_white_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxxhdpi/ic_closed_caption_white_36dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxxhdpi/ic_closed_caption_white_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxxhdpi/ic_drag_updown_grey_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxxhdpi/ic_drag_updown_white_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxxhdpi/ic_more_vert_grey600_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxxhdpi/ic_pause_circle_white_80dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxxhdpi/ic_pause_grey600_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxxhdpi/ic_play_arrow_grey600_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxxhdpi/ic_play_circle_outline_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxxhdpi/ic_play_circle_white_80dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxxhdpi/ic_playlist_white_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxxhdpi/ic_remove_circle_white_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxxhdpi/ic_skip_next_grey600_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxxhdpi/ic_skip_next_white_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxxhdpi/ic_skip_previous_grey600_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxxhdpi/ic_skip_previous_white_48dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable-xxxhdpi/ic_stop_white_24dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/ab_background_textured_castvideo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/ab_background_textured_democast.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/actionbar_bg_gradient_light.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/apptheme_scrubber_control_selector_holo_light.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/apptheme_scrubber_progress_horizontal_holo_light.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/bg_item_dragging_active_state.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/bg_item_dragging_state.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/bg_item_normal_state.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/bg_item_swiping_active_state.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/bg_item_swiping_state.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/bg_item_upcoming_state.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/bg_swipe_item_right.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/btn_cab_done_castvideo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/btn_cab_done_democast.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/cast_player_bg_gradient_light.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/cast_player_bg_gradient_light_overall.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/cc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/container_gradient_bottom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/container_gradient_top.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/default_video.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/horizontal_divider.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/ic_media_route_connecting_holo_dark.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/ic_mini_controller_upcoming_play.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/ic_mini_controller_upcoming_stop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/list_divider.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/mr_ic_media_route_connecting_holo_dark.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/player_bg_gradient_dark.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/player_bg_gradient_light.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/pressed_background_democast.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/progress_horizontal_castvideo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/progress_horizontal_democast.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/selectable_background_castvideo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/selectable_background_democast.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/shadow7.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/skip_next_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/skip_previous_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/spinner_background_ab_castvideo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/spinner_background_ab_democast.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/tab_indicator_ab_castvideo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/tab_indicator_ab_democast.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/text_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/drawable/vertical_divider.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/layout/browse_row.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/layout/fragment_recycler_list_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/layout/player_activity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/layout/queue_activity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/layout/queue_row.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/layout/video_browser.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/layout/video_browser_fragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/menu/browse.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/menu/detached_popup_add_to_queue.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/menu/expanded_controller.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/menu/player.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/menu/popup_add_to_queue.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/menu/queue_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/values-sw600dp/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/values-sw600dp/integers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/values-sw720dp-land/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/values-sw720dp-land/integers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/values-v11/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/values-v21/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/values-v21/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/values/arrays.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/values/cast_test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/values/colors_democast.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/values/integers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/values/styles_castvideo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/xml/application_preference.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\AlienWare\.android\avd\Pixel_6a_API_29.avd)]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "vse-shikarnoo"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:/vse-shikarnoo/GoogleCast.git&quot;,
+    &quot;accountId&quot;: &quot;4f87bb41-9cb4-46b4-81f6-b23dc58b9a23&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2tdi4FbktzKgS7COPGCyYT33c2a" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\compose\GoogleCast\app" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="GoogleCast.app" />
+      <option name="ANDROID_RUN_CONFIGURATION_SCHEMA_VERSION" value="1" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="ALLOW_ASSUME_VERIFIED" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="RESTORE_ENABLED" value="false" />
+      <option name="RESTORE_FILE" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b598de39-04ff-4024-bd83-cb810e0caf2a" name="Changes" comment="" />
+      <created>1740688158853</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740688158853</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="-" />
+    <option name="LAST_COMMIT_MESSAGE" value="-" />
+  </component>
+</project>
